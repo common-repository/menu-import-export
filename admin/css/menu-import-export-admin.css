@@ -1,0 +1,74 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .go-to-different-menu .differen-menu {
+	position: relative;
+	top: 12px;
+}
+
+h5.modal-title  {
+	font-size: 1.25rem !important;
+}
+
+#menuImportExport .modal-dialog-centered::before{
+	display: none !important;
+}
+
+#menuImportExport {
+	overflow: hidden;
+	z-index: 999999;
+	top: 50%;
+	margin-top: -220px;
+}
+
+.alert.alert-success{
+	z-index: 99999 !important;
+}
+
+.go_pro a {
+	color: #fff !important;
+	background-color: #e3541c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #fff;
+	position: relative;
+	padding: 7px 20px;
+	padding-right: 20px;
+	padding-right: 50px;
+	/* background-image: linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%); */
+	/* background-image: -o-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%); */
+	/* background-image: -moz-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%); */
+	/* background-image: -webkit-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%); */
+	/* background-image: -ms-linear-gradient(bottom, rgb(44,160,202) 0%, rgb(62,184,229) 100%); */
+	/* background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(44,160,202)), color-stop(1, rgb(62,184,229)) ); */
+	/* -webkit-border-radius: 5px; */
+	/* -moz-border-radius: 5px; */
+	/* -o-border-radius: 5px; */
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-moz-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	-o-box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #156785, 0px 10px 5px #999;
+	box-shadow: inset 0px 1px 0px #ec682a, 0px 5px 0px 0px #e16522, 0px 10px 5px #999;
+	font-size: 14px;
+	font-weight: bold;
+	bottom: 3px;
+	text-decoration: none !important;
+}
+
+.go_pro {
+	position: absolute;
+	left: 15px;
+}
+
+
+body.mobile.modal-open #wpwrap {
+	position: relative !important;
+}
+
+.popover.fade{
+	opacity: 1 !important;
+	z-index: 9999999 !important;
+}
